@@ -1,0 +1,75 @@
+html {
+    background: linear-gradient(rgb(123, 0, 255), rgb(0, 145, 255));
+    height: 100vh;
+}
+
+*, html, body {
+    font-family: monospace;
+    margin: 0;
+}
+
+#png {
+    width: 6rem;
+}
+
+.animation-position {
+    display: flex;
+    justify-content: center;
+    margin-top: 20ch;
+}
+
+.wrapper {
+    height: 100vh;
+  }
+  
+  .typing-demo {
+    color: white;
+    width: 9ch;
+    animation: typing 2s, blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 5em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+.divider {
+    height: 100%;
+    border-right: 1px solid black;
+    color: transparent;
+    font-size: xx-large;
+}
+
+.navElements {
+    background: linear-gradient(#f0f);
+    padding: 20px;
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+}
+
+.navElements {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.logos {
+    width: 2rem;
+}
+
+img:hover {
+    cursor: pointer;
+}
