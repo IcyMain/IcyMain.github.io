@@ -19,10 +19,10 @@ html {
 }
 
 .wrapper {
-    height: 100vh;
+    height: 10vh;
   }
   
-  .typing-demo {
+  .typing-animation {
     color: white;
     width: 9ch;
     animation: typing 2s, blink .5s step-end infinite alternate;
@@ -72,4 +72,25 @@ html {
 
 img:hover {
     cursor: pointer;
+}
+
+.interests {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5;
+}
+
+.interests {
+  display: flex;
+  justify-content: space-evenly;
+  top: 2rem;
+}
+
+.body-text {
+    color: white;
+    font-size: 2em;
+}
+
+.body-text {
+  margin-top: 5rem;
 }
