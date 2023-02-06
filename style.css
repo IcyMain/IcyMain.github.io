@@ -8,6 +8,10 @@ html {
     margin: 0;
 }
 
+html:selection {
+  background: purple;
+}
+
 #png {
     width: 6rem;
 }
@@ -70,8 +74,16 @@ html {
     width: 2rem;
 }
 
+img {
+  transition: transform 0.3s ease;
+}
+
 img:hover {
     cursor: pointer;
+}
+
+img:hover {
+  transform: translateY(-10px);
 }
 
 .interests {
@@ -82,7 +94,7 @@ img:hover {
 
 .interests {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   top: 2rem;
 }
 
